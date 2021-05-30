@@ -77,7 +77,7 @@ def update_record(record, ip, headers):
 
 
 if __name__ == '__main__':
-    args = load_paramertes() # Get Parameters
+    args = load_paramertes()  # Get Parameters
     try:
         config = load_config(args['config'])
     except json.decoder.JSONDecodeError as jsonError:
