@@ -8,9 +8,10 @@ To run it, you need to create a copy of the `config.json` and replace the `api_k
 cp config.json config_local.json
 vi config_local.json
 ````
-The API Key can be created in the "API" section of the DigitalOcean backend.
+The API Key can be created in the "API" section of the DigitalOcean backend.  
 The API URLs are taken from the [DigitalOcean Documentation](https://developers.digitalocean.com/documentation/v2/#domains)
 
 > IMPORTANT: When using it for the first time, you need to determine the `id` of the record that you would like.
-> This can be done by calling the script with the `--list` parameter: `./dyndns.py --config config_local.json --list`  
+> This can be done by calling the script with the `--list` parameter:  
+> `./dyndns.py --config config_local.json --list`  
 > This will give you a List of all the records, IDs and their value.
