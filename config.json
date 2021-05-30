@@ -1,0 +1,9 @@
+{
+  "api_key": "##SOME_SECRECT_KEY##",
+  "records": [
+    {
+      "id": 100000,
+      "domain": "example.com"
+    }
+  ]
+}
